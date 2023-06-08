@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import './App.css';
+import { Button } from './components/Button/Main';
 
 function App() {
   const [tabs, setTabs] = useState([
     {id:'home',label:'Home'},
-    {id:'work',label:'Work'},
     {id:'aboutme',label:'About me'},
+    {id:'work',label:'Work'},
+    {id:'playground',label:'Playground'},
   ])
 
   return (
@@ -20,8 +22,9 @@ function App() {
             >
               {tab.label}
             </div>)}
-          </div>
+          </div>  
         </div>
+        <Button type={'HTMLButton'}/>
       </header>
     </div>
   );
