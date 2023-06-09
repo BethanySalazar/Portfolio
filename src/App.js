@@ -1,5 +1,6 @@
 import './App.css'
 import { contactinfo, tabs } from './app/files'
+import { Button } from './components'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           }}
         >
           hello
+          <Button type={'HTMLButton'} />
           <div
             style={{
               border: '1px solid red',
