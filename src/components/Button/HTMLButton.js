@@ -1,3 +1,3 @@
-export const HTMLButton = props =>{
+export const HTMLButton = props => {
     return <button />
 }

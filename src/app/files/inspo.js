@@ -1,0 +1,1 @@
+export const inspo = ['https://katielizlewis.com/']
