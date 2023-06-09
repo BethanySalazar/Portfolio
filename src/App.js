@@ -1,46 +1,7 @@
-import { useState } from 'react'
 import './App.css'
+import { contactinfo, tabs } from './app/files'
 
-function App () {
-  const [inspo, setInspo] = useState(['https://katielizlewis.com/'])
-  const [tabs, setTabs] = useState([
-    { id: 'home', label: 'Home' },
-    { id: 'work', label: 'Work' },
-    { id: 'aboutme', label: 'About me' },
-    { id: 'passions', label: 'Passions' },
-    { id: 'contactme', label: 'Contact' }
-  ])
-
-  const [projects, setProjects] = useState([
-    {
-      id: 'miriamspartyland',
-      label: 'Miriams Partyland',
-      projecttype: [
-        'App',
-        'Branding',
-        'Campaign',
-        'Email',
-        'Illustration',
-        'Print',
-        'UX',
-        'Web'
-      ]
-    },
-    { id: 'eurodite', label: 'Eurodite' },
-    { id: 'datamanagement', label: 'Allergy Database' }
-  ])
-
-  const [contactInfo, setContactInfo] = useState([
-    { id: '', label: 'Name', icon: '', value: 'Bethany Salazar' },
-    {
-      id: '',
-      label: 'Email',
-      icon: '',
-      value: 'bethanysalazar2007@hotmail.com'
-    },
-    { id: '', label: 'Phone number', icon: '', value: '(512) 363-6887' },
-    { id: '', label: 'LinkedIn', icon: '', value: 'LinkedIn' }
-  ])
+function App() {
 
   return (
     <div className='App'>
@@ -76,12 +37,11 @@ function App () {
               display: 'flex',
               height: 'fit-content',
               background: '',
-              margin: '20px 20px 20px 20px '
             }}
           >
             <div style={{ display: 'flex', flexDirection: 'column' }}>
-              {Object.entries(contactInfo).map((field, index) => (
-                <div key={index + '_' + field[0]}>{field[1]}</div>
+              {contactinfo.map((field, index) => (
+                <div key={index + '_' + field.id}>{field.value}</div>
               ))}
             </div>
             <div></div>
