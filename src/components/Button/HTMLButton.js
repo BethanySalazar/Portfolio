@@ -1,3 +1,7 @@
 export const HTMLButton = props => {
-    return <button />
+    return (
+        <button autoFocus={false} disabled={false} >
+            {props.text}
+        </button>
+    )
 }
