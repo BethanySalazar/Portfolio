@@ -2,7 +2,7 @@ import { tabs } from '../../files/tabs'
 
 export const initialState = {
   tabs: tabs,
-  currentTab: []
+  currentTab: tabs.filter(tab => tab.id === 'home' && tab)[0]
 }
 
 export function tabReducer (state, action) {

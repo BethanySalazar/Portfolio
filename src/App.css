@@ -4,6 +4,7 @@
 }
 
 .Header {
+  background: white;
   display: flex;
   position: sticky;
   top: 0;
