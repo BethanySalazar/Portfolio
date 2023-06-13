@@ -1,1 +1,1 @@
-export const inspo = ['https://katielizlewis.com/']
+export const inspo = ['https://katielizlewis.com/', ['https://bobangajicsm.github.io/portfolio/tips.html',]]

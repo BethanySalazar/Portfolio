@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 export const TabsContainer = styled.div`
   // border: 1px solid red;
   display: flex;

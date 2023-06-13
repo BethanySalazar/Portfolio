@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useTab } from '../../app/data/context/TabContext'
 import { TabsContainer, Tab, StyledIcon } from './styles'
 

@@ -1,8 +1,7 @@
-import { FaEnvelope, FaHome, FaUser } from 'react-icons/fa'
 import './App.css'
 import { TabProvider } from './app/data/context/TabContext'
 import { initialState, tabReducer } from './app/data/reducer/TabReducer'
-import { Body, Footer, Header, Sidebar } from './components'
+import { Body, Footer, Header } from './components'
 
 function App () {
   return (
