@@ -1,12 +1,14 @@
+import { FaEnvelope, FaHome, FaUser } from 'react-icons/fa'
 import './App.css'
 import { TabProvider } from './app/data/context/TabContext'
 import { initialState, tabReducer } from './app/data/reducer/TabReducer'
-import { Body, Footer, Header } from './components'
+import { Body, Footer, Header, Sidebar } from './components'
 
 function App () {
   return (
     <TabProvider initialState={initialState} reducer={tabReducer}>
       <div className='App'>
+        {/* <Sidebar/> */}
         <div className='Header'>
           <Header type={'Simple_Header'} />
         </div>

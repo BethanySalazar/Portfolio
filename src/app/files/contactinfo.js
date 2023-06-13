@@ -9,7 +9,7 @@ import { FaGithubAlt } from 'react-icons/fa'
 import { MdOutlineMailOutline, MdEmail } from 'react-icons/md'
 
 export const contactinfo = [
-  { id: 'name', label: 'Name', icon: '', value: 'Bethany Salazar', link: '' },
+  { id: 'name', label: 'Name', icon: '', value: 'Bethany Salazar', link: '' , image:''},
   {
     id: 'email',
     label: 'Email',

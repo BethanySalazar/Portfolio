@@ -1,5 +1,6 @@
 export * from './Button'
 export * from './Header'
 export * from './Footer'
-export * from './Layouts'
+export * from './Layout'
 export * from './Body'
+export * from './Sidebar'
