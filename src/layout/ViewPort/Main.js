@@ -27,7 +27,7 @@ export const ViewPort = props => {
           // border: '1px solid red'
         }}
       >
-        <div
+        {/* <div
           style={{
             // flexGrow: '1',
             border: '1px solid red',
@@ -39,7 +39,7 @@ export const ViewPort = props => {
           }}
         >
           <Button type={'HTML_Button'} text={'Button'} />
-        </div>
+        </div> */}
       </div>
     </div>
   )

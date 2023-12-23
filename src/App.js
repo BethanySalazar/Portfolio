@@ -1,24 +1,25 @@
 import './App.css'
 import { TabProvider } from './app/data/context/TabContext'
 import { initialState, tabReducer } from './app/data/reducer/TabReducer'
-import { Body, Footer, Header, ViewPort} from './layout'
-
+import { Body, Footer, Header, Sandbox, ViewPort } from './layout'
 
 function App () {
   return (
     <TabProvider initialState={initialState} reducer={tabReducer}>
+      <Sandbox />
+
+      {/* <ViewPort /> */}
       {/* <div className='App'> */}
-        <ViewPort />
-        {/* <Sidebar/> */}
-        <div className='Header'>
-          <Header type={'Simple_Header'} />
-        </div>
-        <div className='Body'>
-          <Body />
-        </div>
-        <div className='Footer'>
-          <Footer />
-        </div>
+      {/* <Sidebar/> */}
+      {/* <div className='Header'> */}
+      {/* <Header type={'Simple_Header'} /> */}
+      {/* </div> */}
+      {/* <div className='Body'> */}
+      {/* <Body /> */}
+      {/* </div> */}
+      {/* <div className='Footer'> */}
+      {/* <Footer /> */}
+      {/* </div> */}
       {/* </div> */}
     </TabProvider>
   )
