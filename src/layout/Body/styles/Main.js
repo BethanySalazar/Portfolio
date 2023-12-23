@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 export const MainContainer = styled.div`
-  border-bottom: 1px solid black;
+  border: 1px solid red;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   padding: 20px;
 `

@@ -1,6 +1,6 @@
 import { contactinfo } from '../../app/files'
-import { Navigation } from '../Navigation/Main'
-import { MainContainer,Title } from './styles'
+import { Navigation } from '../../components'
+import { MainContainer, Title } from './styles'
 
 export const SimpleHeader = props => {
   return (
@@ -9,7 +9,7 @@ export const SimpleHeader = props => {
         field =>
           field.id === 'name' && <Title key={field.id}>{field.value}</Title>
       )}
-      <Navigation type={'StyledIcons'}/>
+      <Navigation type={'StyledIcons'} />
     </MainContainer>
   )
 }

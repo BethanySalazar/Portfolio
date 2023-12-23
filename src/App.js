@@ -1,12 +1,14 @@
 import './App.css'
 import { TabProvider } from './app/data/context/TabContext'
 import { initialState, tabReducer } from './app/data/reducer/TabReducer'
-import { Body, Footer, Header } from './components'
+import { Body, Footer, Header, ViewPort} from './layout'
+
 
 function App () {
   return (
     <TabProvider initialState={initialState} reducer={tabReducer}>
-      <div className='App'>
+      {/* <div className='App'> */}
+        <ViewPort />
         {/* <Sidebar/> */}
         <div className='Header'>
           <Header type={'Simple_Header'} />
@@ -17,7 +19,7 @@ function App () {
         <div className='Footer'>
           <Footer />
         </div>
-      </div>
+      {/* </div> */}
     </TabProvider>
   )
 }

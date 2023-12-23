@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
   flex-direction: column;
   padding: 20px;
   width: 100%;
+  z-index: 1;
 `
 export const StyledLink = styled.a`
   font-size: ${props => (props.bold === 'true' ? '20px' : 'default')};

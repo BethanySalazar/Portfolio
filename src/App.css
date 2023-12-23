@@ -3,6 +3,23 @@
   /* border: 1px solid black; */
 }
 
+.ViewPort {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* width: 100vh; */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 999; */
+  /* Set an appropriate z-index value to ensure it's above other elements */
+  /* Additional styling if needed */
+  /* background-color: white; */
+  /* other styles */
+}
+
 .Header {
   background: white;
   display: flex;
