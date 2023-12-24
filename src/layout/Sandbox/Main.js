@@ -1,9 +1,10 @@
-import { InputField } from '../../components'
+import { Form, InputField } from '../../components'
 
 export const Sandbox = props => {
   return (
     <div className='ViewPort'>
-      <InputField />
+      <InputField value={'here'}/>
+      <Form />
     </div>
   )
 }

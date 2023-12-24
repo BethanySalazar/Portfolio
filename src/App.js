@@ -6,21 +6,18 @@ import { Body, Footer, Header, Sandbox, ViewPort } from './layout'
 function App () {
   return (
     <TabProvider initialState={initialState} reducer={tabReducer}>
-      <Sandbox />
-
-      {/* <ViewPort /> */}
-      {/* <div className='App'> */}
-      {/* <Sidebar/> */}
-      {/* <div className='Header'> */}
-      {/* <Header type={'Simple_Header'} /> */}
-      {/* </div> */}
-      {/* <div className='Body'> */}
-      {/* <Body /> */}
-      {/* </div> */}
-      {/* <div className='Footer'> */}
-      {/* <Footer /> */}
-      {/* </div> */}
-      {/* </div> */}
+      {/* <Sandbox /> */}
+      <ViewPort />
+      <div className='App'>
+        {/* <Sidebar /> */}
+        <Header type={'Simple_Header'} />
+        <div className='Body'>
+          <Body />
+        </div>
+        <div className='Footer'>
+          <Footer />
+        </div>
+      </div>
     </TabProvider>
   )
 }

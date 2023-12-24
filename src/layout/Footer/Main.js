@@ -3,7 +3,7 @@ import { MainContainer, StyledLink } from './styles/Main'
 
 export const Footer = props => {
   return (
-    <MainContainer>
+    <MainContainer className='Footer'>
       {contactinfo.map((field, index) => (
         <div
           key={index + '_' + field.id}

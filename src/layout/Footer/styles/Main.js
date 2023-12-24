@@ -3,8 +3,7 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 100%;
-  z-index: 1;
+  z-index: 9999;
 `
 export const StyledLink = styled.a`
   font-size: ${props => (props.bold === 'true' ? '20px' : 'default')};

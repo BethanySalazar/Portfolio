@@ -10,5 +10,5 @@ export const Header = props => {
     }
   }
 
-  return getHeader(props.type)
+  return <div className='Header'>{getHeader(props.type)}</div>
 }
