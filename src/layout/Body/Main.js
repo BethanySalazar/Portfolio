@@ -29,7 +29,11 @@ export const Body = props => {
               {Object.entries(section).map(([key, value], index) => (
                 <div
                   key={`section_${sectionIndex}_item_${index}`}
-                  style={{ border: '1px solid red' }}
+                  style={{
+                    // border: '1px solid red',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}
                 >
                   <div>{key}</div>
                   <Textarea text={value} />

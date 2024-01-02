@@ -14,7 +14,7 @@ export const Textarea = props => {
   return (
     <textarea
       // {...props}
-      // width={''}
+      width={'100%'}
       // type=''
       // placeholder={value}
       value={value}
