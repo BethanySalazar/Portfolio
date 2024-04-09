@@ -1,6 +1,6 @@
 import { tabs } from '../../files/tabs'
 
-export const initialState = {
+export const initialTabState = {
   tabs: tabs,
   currentTab: tabs.filter(tab => tab.id === 'home' && tab)[0]
 }

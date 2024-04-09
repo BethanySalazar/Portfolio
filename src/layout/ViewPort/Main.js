@@ -5,7 +5,7 @@ import { MainContainer } from './styles/Main'
 export const ViewPort = props => {
   const [tabState] = useTab()
   return (
-    <div className='ViewPort'>
+    <div className='ViewPort' >
       <div
         style={{
           display: 'flex',

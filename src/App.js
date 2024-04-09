@@ -1,11 +1,14 @@
 import './App.css'
-import { TabProvider } from './app/data/context/TabContext'
-import { initialState, tabReducer } from './app/data/reducer/TabReducer'
+import { TabProvider, useTheme } from './app/data/context'
+import { tabReducer, initialTabState } from './app/data/reducer'
+
 import { Body, Footer, Header, Sandbox, ViewPort } from './layout'
 
 function App () {
+  const [themeState, themeDispatch] = useTheme()
+  console.log('themeState', themeState)
   return (
-    <TabProvider initialState={initialState} reducer={tabReducer}>
+    <TabProvider initialState={initialTabState} reducer={tabReducer}>
       {/* <Sandbox /> */}
       <ViewPort />
       <div className='App'>
