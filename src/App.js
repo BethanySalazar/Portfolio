@@ -11,12 +11,8 @@ function App () {
       <div className='App'>
         {/* <Sidebar /> */}
         <Header type={'Simple_Header'} />
-        <div className='Body'>
-          <Body />
-        </div>
-        <div className='Footer'>
-          <Footer />
-        </div>
+        <Body />
+        <Footer />
       </div>
     </TabProvider>
   )

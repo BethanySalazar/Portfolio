@@ -9,7 +9,7 @@ export const ViewPort = props => {
       <div
         style={{
           display: 'flex',
-          flexGrow: '1'
+          flexGrow: '1',
           // border: '1px solid red'
         }}
       >
@@ -18,7 +18,7 @@ export const ViewPort = props => {
       <div
         style={{
           display: 'flex',
-          flexGrow: '2'
+          flexGrow: '2',
           // border: '1px solid red'
         }}
       ></div>
